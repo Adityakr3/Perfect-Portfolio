@@ -3,15 +3,12 @@
     font-family: gilroy;
     src: url(./public/fonts/Gilroy-Regular.ttf)format("truetype");
 }
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: gilroy;
 }
-
 html,
 body {
     position: relative;
@@ -91,12 +88,12 @@ nav li :hover{
     cursor: pointer;
     font-size: 1.1em;
     color: #ffffff;
-    text-shadow: 0 0 5px #03e9f4,
+    text-shadow: 
+                 0 0 5px #03e9f4,
                  0 0 25px #03e9f4,
                  0 0 50px #03e9f4,
                  0 0 100px #03e9f4;
 }
-
 nav li a {
     color: rgb(98, 98, 98);
     text-decoration: none;
@@ -151,12 +148,10 @@ nav li a {
     margin-left: 32px;
     color: #ffffff;
     Box-shadow: 0 0 5px #03e9f4,
-                 0 0 25px #03e9f4,
-                 0 0 50px #03e9f4,
-                 0 0 100px #03e9f4;
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
 }
-
-
 .content {
 	position: relative;
     top: 92px;
@@ -188,7 +183,6 @@ nav li a {
 	color:  #03e9f4;
 	animation: animate 4s ease-in-out infinite;
 }
-
 @keyframes animate {
 	0%,
 	100% {
