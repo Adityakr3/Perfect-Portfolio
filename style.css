@@ -3,6 +3,10 @@
     font-family: gilroy;
     src: url(./public/fonts/Gilroy-Regular.ttf)format("truetype");
 }
+:root {
+    --bg-color: #b7c4cf;
+    --color-primary: #0f3460;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -13,8 +17,7 @@ html,
 body {
     position: relative;
     min-height: auto;
-    width: 100%;
-}
+    width: 100%;}
 #main{
     position: relative;
     min-height: 100vh;
