@@ -28,29 +28,28 @@ body {
 }#box1{
     min-height: 100vh;
     width: 100%;
-    background-color: #020202;
+    background-color: #000000;
 }
 #box2{
     min-height: 100vh;
     width: 100%;
-    background-color: #040404;
+    background-color: #000000;
 }
 #box3{
     min-height: 100vh;
     width: 100%;
-    background-color: #030303;
+    background-color: #000000;
 }
 #box4{
     min-height: 100vh;
     width: 100%;
-    background-color: #020202;
+    background-color: #000000;
 }
 
 #particles-js{
     top: 5%;
     height: 110%;;
     position: relative;
-    background-color: #000000;
 }
 nav {
     width: 100%;
@@ -150,11 +149,11 @@ nav li a {
     font-weight: 600;
     border-radius: 25px;
     padding: 12px 24px;
-    margin-left: 32px;
+    margin-left: 52px;
     color: #ffffff;
     Box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
+                /* 0 0 25px #03e9f4, */
+                /* 0 0 50px #03e9f4, */
                 0 0 100px #03e9f4;
 }
 .content {
