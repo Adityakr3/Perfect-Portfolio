@@ -118,6 +118,16 @@ nav li a {
     top:-25%;
     right:-5%;
 }
+.leftbox > .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99999;
+    /* background-color: #22222249; */
+}
+
+
+
 .rightbox > #btnmain{
     width: 65%;
     height: 15%;
