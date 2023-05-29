@@ -335,7 +335,7 @@ var pJS = function(tag_id, params){
         velbase = { x:0, y:0 };
       break;
     }
-
+ /* this code is All Rights Reserved form aditya.tech */
     if(pJS.particles.move.straight){
       this.vx = velbase.x;
       this.vy = velbase.y;
@@ -540,7 +540,7 @@ var pJS = function(tag_id, params){
         }
         if(p.radius < 0) p.radius = 0;
       }
-
+/* this code is All Rights Reserved form aditya.tech */
       /* change particle position if it is out of canvas */
       if(pJS.particles.move.out_mode == 'bounce'){
         var new_pos = {
@@ -1402,7 +1402,7 @@ var pJS = function(tag_id, params){
 
 
 };
-
+/* this code is All Rights Reserved form aditya.tech */
 /* ---------- global functions - vendors ------------ */
 
 Object.deepExtend = function(destination, source) {
@@ -1512,7 +1512,7 @@ window.particlesJS = function(tag_id, params){
 };
 
 window.particlesJS.load = function(tag_id, path_config_json, callback){
-
+  /* this code is All Rights Reserved form aditya.tech */
   /* load json config */
   var xhr = new XMLHttpRequest();
   xhr.open('GET', path_config_json);

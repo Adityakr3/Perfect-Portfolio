@@ -119,6 +119,7 @@ particlesJS('particles-js',
         }
       }
     },
+    /* this code is All Rights Reserved form aditya.tech */
     "retina_detect": true,
     "config_demo": {
       "hide_card": false,
