@@ -84,7 +84,14 @@ nav ul{
     align-items: center;
     margin-right: 1vw;
 }
-
+nav > ul > span{
+    font-size: 1.1em;
+    color: #ffffff;
+    text-shadow:  0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
 nav li{
     list-style: none;
     padding: 0 16px;
@@ -99,7 +106,7 @@ nav li :hover{
                  0 0 100px #03e9f4;
 }
 nav li a {
-    color: rgb(98, 98, 98);
+    color: rgba(255, 255, 255, 0.867);
     text-decoration: none;
 }
 .box{
@@ -250,6 +257,7 @@ nav li a {
     padding-top: 18px;
 }
 #box3{
+    position: relative;
     min-height: 100vh;
     width: 100%;
     background-color: #000000;
@@ -267,12 +275,8 @@ nav li a {
     0 0 25px #03e9f4,
     0 0 50px #03e9f4,
     0 0 100px #03e9f4;
-    padding-top: 18px;
+    padding-top: 25px;
 }
-
-
-
-
 
 
 
