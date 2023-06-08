@@ -159,6 +159,7 @@ nav li a {
                  0 0 100px #03e9f4; */
 }
 #btnmain > button{
+    cursor: pointer;
     width: 35%;
     height: 80%;
     cursor: pointer;
@@ -237,14 +238,15 @@ nav li a {
 }
 /* ....................................Box2 Start....................................... */
 #box2{
-    min-height: 100vh;
+    position: relative;
+    min-height:90vh;
     width: 100%;
     background-color: #000000;
 }
 #box2 .heading{
     width: 100%;
     height: 48px;
-    font-size: 28px;
+    font-size: 35px;
     font-family: gilroy;
     color: #ffffff;
     display: flex;
@@ -256,6 +258,46 @@ nav li a {
     0 0 100px #03e9f4;
     padding-top: 18px;
 }
+#box2 > .b2-data{
+    position:absolute;
+    top:22%;
+    width:100%;
+    height:65%;
+    /* background-color: #6c6c6c; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#box2 .b2DataLeft{
+    width:41%;
+    height:100%;
+    background-color: #3df1f1;
+    border-radius: 25px;
+}
+#box2 .b2DataRight{
+    width:41%;
+    height:100%;
+    background-color: #3df1f1;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #box3{
     position: relative;
     min-height: 100vh;
@@ -263,9 +305,10 @@ nav li a {
     background-color: #000000;
 }
 #box3 .heading{
+    position: absolute;
     width: 100%;
     height: 48px;
-    font-size: 28px;
+    font-size: 45px;
     font-family: gilroy;
     color: #ffffff;
     display: flex;
@@ -275,17 +318,114 @@ nav li a {
     0 0 25px #03e9f4,
     0 0 50px #03e9f4,
     0 0 100px #03e9f4;
-    padding-top: 25px;
+    padding-top:5vh;
+    /* overflow: hidden; */
 }
+#box3 .projectBox{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 75%;
+    /* background-color: red; */
+    padding:10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.projectBox > .project{
+    width: 35%;
+    height: 75%;
+    /* background-color: #3df1f1; */
+    display: inline-block;
+    margin-top:4%;
+    margin-right: 3%;
+    border-radius: 25px;
+    border: 2px solid rgb(163, 163, 163);
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   position: relative;
 
-
-
-
-
-
-
-
-
+}
+.projectBox ::-webkit-scrollbar{
+    display: none;
+}
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project .overlay{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.796), #3df1f1e1);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 40px;
+    font-size: 18px;
+    transition: height 1.4s;
+    z-index: 99;
+    color: #000000;
+}
+.project:hover .overlay{
+    height:100%;
+}
+.overlay h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10%;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-shadow:  0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.overlay a{
+    width:35%;
+    cursor: pointer;
+    color: #000000e1;
+    background-color: rgba(137, 225, 235, 0.925);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 12px 24px;
+    margin-left: 52px;
+    color: #000000b7;
+    border: 5px solid black;
+    text-decoration: none;
+    margin-left: 0%;
+}
+.project .dark{
+    top: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0000005e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+}
+.dark > h1 {
+    background: linear-gradient(to right, #ffffff, #00f2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+}
 
 
 
